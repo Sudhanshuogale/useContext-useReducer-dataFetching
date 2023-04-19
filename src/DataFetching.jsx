@@ -37,6 +37,7 @@ function DataFetching() {
         })    
     },[]);
 
+    console.log("Hello World")
   return (
     <div>
         {state.loading ? "Loading" : state.post.title};
